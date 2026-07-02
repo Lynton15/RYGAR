@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Irrigation System",
+    "description": "Developed to automate irrigation using real-time soil moisture monitoring and cloud connectivity.",
+    "student": "Student Project",
+    "college": "Partner Institution",
+    "technology": "ESP32 | IoT | Sensors",
+    "image": "assets/images/projects/project1.jpg",
+    "github": "https://github.com/example/project1",
+    "linkedin": "https://linkedin.com/in/example"
+  },
+
+  {
+    "id": 2,
+    "name": "Smart Surveillance Solution",
+    "description": "A secure CCTV system with remote monitoring, centralized storage, and future AI-driven analytics.",
+    "student": "Student Project",
+    "college": "Partner Institution",
+    "technology": "CCTV | IoT | Embedded",
+    "image": "assets/images/projects/project2.jpg",
+    "github": "https://github.com/example/project2",
+    "linkedin": "https://linkedin.com/in/example"
+  },
+
+  {
+    "id": 3,
+    "name": "Embedded Monitoring System",
+    "description": "A real-time monitoring solution for industrial and commercial environments using embedded hardware and software.",
+    "student": "Student Project",
+    "college": "Partner Institution",
+    "technology": "Embedded | Sensors | Data Logging",
+    "image": "assets/images/projects/project3.jpg",
+    "github": "https://github.com/example/project3",
+    "linkedin": "https://linkedin.com/in/example"
+  }
+]
