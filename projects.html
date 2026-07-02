@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | RYGAR Technologies</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+</head>
+
+<body>
+
+    <div id="loader">
+
+        <img src="assets/images/no.png">
+
+        <h2>RYGAR Technologies</h2>
+
+        <p>Engineering Ideas Into Smart Solutions</p>
+
+    </div>
+
+    <div id="navbar-container"></div>
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="hero-content" data-aos="fade-up">
+
+                <span class="section-tag">
+
+                    PROJECT PORTFOLIO
+
+                </span>
+
+                <h1>
+
+                    Explore Our
+
+                    <span class="gold">
+
+                        Engineering Projects
+
+                    </span>
+
+                </h1>
+
+                <p>
+
+                    Real projects developed by students,
+                    interns, and engineering teams.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <input type="text" id="searchInput" placeholder="Search projects..." class="project-search">
+
+            <div id="projectContainer" class="project-grid">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECT MODAL -->
+
+    <div class="project-modal" id="projectModal">
+
+        <div class="project-modal-content">
+
+            <span id="closeModal">
+
+                &times;
+
+            </span>
+
+            <h2 id="modalTitle">
+
+                Project Title
+
+            </h2>
+
+            <p id="modalDescription">
+
+                Description
+
+            </p>
+
+            <p>
+
+                <strong>Student:</strong>
+
+                <span id="modalStudent"></span>
+
+            </p>
+
+            <p>
+
+                <strong>College:</strong>
+
+                <span id="modalCollege"></span>
+
+            </p>
+
+            <br>
+
+            <a id="modalGithub" class="btn" target="_blank">
+
+                GitHub
+
+            </a>
+
+            <a id="modalLinkedin" class="btn" target="_blank">
+
+                LinkedIn
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="assets/js/projects.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: true,
+            anchorPlacement: 'top-bottom'
+        });
+    </script>
+
+    <script src="assets/js/projects-modal.js"></script>
+
+</body>
+
+</html>
